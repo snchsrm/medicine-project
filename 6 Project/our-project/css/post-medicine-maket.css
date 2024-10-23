@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../img/bg.jpg);
+	background-size: 50px;
+	color: #fafafa;
+	font-family: raleway-c;
+	overflow-x: hidden;
+    padding-top: 50px;
+}
+
+.header {
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    background-color:rgb(199, 158, 22);
+    padding: 5px 0px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.title-post-detail-medicine {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.description-post-detail-medicine {
+    font-size: 20px;
+}
+
+.post-detail-container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.post-detail-image {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    border: 3px solid, rgb(0, 0, 0);
+    background-color: rgb(199, 158, 22);;
+    padding: 10px 45px;
+	margin-right: 10px;
+	margin-top: 10px;
+    transition: 0.3s ease-in-out; }
+
+.button:hover {
+	background-color: #312f2c;
+	color: white;
+}
+
+.buttons-container {
+    margin-top: 40px;
+    text-align: center;
+}

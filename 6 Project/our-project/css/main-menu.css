@@ -1,0 +1,148 @@
+body {
+	background-image: url(../img/bg.jpg);
+	background-size: 50px;
+	color: #fafafa;
+	font-family: raleway-c;
+	overflow-x: hidden;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.category-row {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.left-side {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 15px;
+}
+
+.right-side {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 215px;
+    background-color: rgb(199, 158, 22);
+    border: 3px solid #000000;
+    border-radius: 10%;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+
+.category-item {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(199, 158, 22);
+    border: 3px solid #000000;
+    border-radius: 20%;
+    transition: background-color 0.3s ease;
+}
+
+.category-item:hover {
+    background-color: #312f2c;
+}
+
+.right-side:hover {
+    background-color: #312f2c;
+}
+
+.category-item__img {
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease;
+}
+
+.old-img {
+    opacity: 1;
+}
+
+.new-img {
+    opacity: 0;
+}
+
+.category-item:hover .old-img {
+    opacity: 0;
+}
+
+.category-item:hover .new-img {
+    opacity: 1;
+}
+
+.right-side:hover .old-img {
+    opacity: 0;
+}
+
+.right-side:hover .new-img {
+    opacity: 1;
+}
+
+.image-container {
+    padding-top: 40px;
+}
+
+.QR-code {
+    width: 300px;
+    height: 300px;
+    border: 5px solid #000000;
+    border-radius: 10px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.category-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.category-item__text {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(199, 158, 22);
+}
+
+.category-item6 {
+    border-radius: 50%;
+}
+
+.category-item7 {
+    border-radius: 50%;
+}
